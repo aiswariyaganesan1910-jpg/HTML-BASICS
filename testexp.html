@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+             @media(max-width:768px){
+            .container{
+                display:grid;
+                grid-template-areas:
+                "header "
+                "nav"
+                "aside"
+                "main"
+                "footer";
+                grid-template-rows: auto ;
+                grid-template-columns:auto;
+                height:auto;
+                
+
+            }
+        }
+        .container{
+            display:grid;
+            grid-template-areas:
+            "header header"
+            "nav nav"
+            "aside main"
+            "footer footer";
+            grid-template-columns: auto;
+        }
+            h5{
+                text-align: center;
+            }
+           header{
+            grid-area: header;
+            background-color: rgb(59, 110, 219);
+            text-align: center;
+             border: solid 1px black;
+
+            
+
+           }
+           nav{
+            grid-area: nav;
+            background-color: rgb(127, 183, 218);
+            
+            text-align:center;
+             border: solid 1px black;
+            
+           }
+           
+           aside{
+            grid-area: aside;
+            background-color:rgb(120, 181, 210);
+           border: solid 1px black;
+
+           }
+          
+
+
+           main{
+            background-color:lightblue;
+            border: solid 1px black;
+           }
+           footer{
+            grid-area: footer;
+            background-color: rgb(87, 158, 189);
+            text-align: center;
+            border: solid 1px black;
+           }
+           .one{
+            font-family: cursive;
+            font-style: oblique;
+            color:  rgb(3, 66, 149);
+           }
+           .two{
+            font-family: cursive;
+            font-style: oblique;
+            color:  rgb(3, 66, 149);
+           }
+           .three{
+            font-family: cursive;
+            font-style: oblique;
+            color:  rgb(3, 66, 149);
+           }
+           
+            
+            
+        
+           nav ul{
+            display:flex;
+           
+            align-items:center;
+            justify-content: center;
+            gap:20px;
+           }
+           nav ul li{
+           
+            list-style-type: none;
+            
+           }
+          
+           h2{
+            padding: 5px;
+           }
+           h1{
+            text-align: center;
+           }
+           p{
+            text-indent: 20px;
+            
+
+           }
+           .four{
+            font-family: cursive;
+            color:  rgb(3, 66, 149);
+           }
+
+
+          
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h2>MY WEBPAGE</h2>
+               
+            </header>
+            <nav>
+                <ul>
+                    <li ><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    
+
+                </ul>
+            </nav>
+            <aside>
+                <h5>SIDE BAR</h5>
+                <ul>
+                    <li style="list-style-type:none;">
+                        <a href="#">updates</a>
+                    </li>
+                    <li style="list-style-type:none;">
+                        <a href="#">menu</a>
+                    </li>
+                    <li style="list-style-type:none;">
+                        <a href="#">home</a>
+                    </li>
+
+                </ul>
+            </aside>
+            <main>
+                <h1>NEW YORK CITY</h1>
+                
+                <p class="one">The famous Statue of Liberty was gifted by France in 1886 as a symbol of friendship.</p>
+                <p class="two">People in NYC eat millions of pizza slices daily—it’s a huge part of the culture.</p>
+                <p class="three">NYC is active 24/7—subways, restaurants, and shops run even at midnight!</p>
+                <p class="four">New York City is one of the most vibrant and influential cities in the world, located in the United States. Known as “The Big Apple,” it is a global center for finance, culture, media, and entertainment. The city is made up of five boroughs—Manhattan, Brooklyn, Queens, the Bronx, and Staten Island—each with its own unique character. Famous landmarks like the Statue of Liberty, Times Square, and Central Park attract millions of visitors every year. New York is also home to the United Nations headquarters and the financial hub of Wall Street. With its diverse population, fast-paced lifestyle, and rich cultural scene, New York City is often called “the city that never sleeps.”
+</p>
+
+
+
+    
+            </main>
+            <footer>
+                <h3>&copy All rights are reserved</h3>
+                
+            </footer>
+        </div>
+
+    </body>
+</html>
